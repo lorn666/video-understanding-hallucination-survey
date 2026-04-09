@@ -1,11 +1,14 @@
-# [A Survey on Hallucination in Video Understanding: Taxonomy, Causes, and Mitigation Techniques](paper.pdf)
+<div align="center">
 
+# A Survey on Hallucination in Video Understanding: Taxonomy, Causes, and Mitigation Techniques
 
 **Jiayi Sheng**$^{1,2}$, **Wei Luo**$^{1}$, **Wotao Yin**$^{1}$
 
 $^1$ Alibaba Group US DAMO Academy &nbsp;&nbsp; $^2$ Carnegie Mellon University
 
 [[Paper](paper.pdf)]
+
+</div>
 
 
 ## Overview
