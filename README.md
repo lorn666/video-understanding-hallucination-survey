@@ -40,13 +40,13 @@ We begin with two concrete examples that ground each category in observable mode
 
 The figure below uses a simplified tea-making scenario with a timeline of six key moments (T1–T6) to illustrate all six hallucination categories in a controlled setting. 
 
-<div align="center"><img src="figure/hallucination_illustration_tea.jpg" width="100%"/></div>
+<div align="center"><img src="figure/hallucination_illustration_tea.jpg" width="95%"/></div>
 
 
 ## Example 2: Real-World Scenario
 
 The same six hallucination categories reappear in the real-world grocery self-checkout scenario below. 
-<div align="center"><img src="figure/hallucination_illustration_grocery.jpg" width="100%"/></div>
+<div align="center"><img src="figure/hallucination_illustration_grocery.jpg" width="95%"/></div>
 
 
 ## Unified Hallucination Taxonomy
