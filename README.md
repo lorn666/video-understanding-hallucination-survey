@@ -36,14 +36,14 @@ To systematically analyze failure modes in Vid-LLMs, we organize hallucination p
 
 We begin with two concrete examples that ground each category in observable model behavior before presenting the full taxonomy.
 
-## Example: Tea-Making Scenario
+## Example 1: Tea-Making Scenario
 
 The figure below uses a simplified tea-making scenario with a timeline of six key moments (T1–T6) to illustrate all six hallucination categories in a controlled setting. 
 
 ![Tea Hallucination](figure/hallucination_illustration_tea.jpg)
 
 
-## Example: Real-World Scenario
+## Example 2: Real-World Scenario
 
 The same six hallucination categories reappear in the real-world grocery self-checkout scenario below. 
 ![Grocery Hallucination](figure/hallucination_illustration_grocery.jpg)
