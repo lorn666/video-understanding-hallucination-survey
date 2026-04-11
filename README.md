@@ -40,20 +40,20 @@ We begin with two concrete examples that ground each category in observable mode
 
 The figure below uses a simplified tea-making scenario with a timeline of six key moments (T1–T6) to illustrate all six hallucination categories in a controlled setting. 
 
-![Tea Hallucination](figure/hallucination_illustration_tea.jpg)
+<div align="center"><img src="figure/hallucination_illustration_tea.jpg" width="100%"/></div>
 
 
 ## Example 2: Real-World Scenario
 
 The same six hallucination categories reappear in the real-world grocery self-checkout scenario below. 
-![Grocery Hallucination](figure/hallucination_illustration_grocery.jpg)
+<div align="center"><img src="figure/hallucination_illustration_grocery.jpg" width="100%"/></div>
 
 
 ## Unified Hallucination Taxonomy
 
 With these examples in mind, we now present the unified hallucination taxonomy. As illustrated below, we identify six major categories of hallucination in video understanding, organized by the type of failure each represents.
 
-![Hallucination Taxonomy](figure/hallucination_taxonomy_overview.png)
+<div align="center"><img src="figure/hallucination_taxonomy_overview.png" width="100%"/></div>
 
 **Temporal Understanding Hallucination** arises when a model misrepresents the chronological order, timing, or duration of events, manifesting as sequencing errors where events are placed in the wrong order, or temporal grounding errors where incorrect timestamps or boundaries are assigned.
 
@@ -76,48 +76,48 @@ Mitigating hallucination requires interventions at specific stages of the Vid-LL
 
 The figure below illustrates five methodological paradigms and identifies where each intervenes in the Vid-LLM pipeline: reinforcement learning and preference optimization reshape training objectives; supervision augmentation and synthetic data address gaps in the training distribution; structured representations make entities, relations, and temporal indices explicit during reasoning; long-context information management governs what the model retains, compresses, or retrieves across time; and inference-time interventions steer generation toward grounded evidence without modifying model weights.
 
-![Mitigation Overview](figure/mitigation_pipeline_overview.jpg)
+<div align="center"><img src="figure/mitigation_pipeline_overview.jpg" width="90%"/></div>
 
 ## Mitigation Techniques Taxonomy
 
 With the pipeline paradigms in mind, we now present the mitigation techniques taxonomy. As illustrated below, we organize all reviewed mitigation methods by the hallucination category they address, making explicit the connection between each failure type and the techniques designed to remedy it.
 
-![Mitigation Taxonomy](figure/mitigation_taxonomy_overview.png)
+<div align="center"><img src="figure/mitigation_taxonomy_overview.png" width="100%"/></div>
 
 
 ### Temporal Understanding Hallucination Mitigation
 
 Existing approaches fall into three paradigms, as illustrated below. Preference optimization and reinforcement learning directly penalize temporal errors through verifiable reward signals such as timestamp-aware IoU. Specialized architectures encode temporal structure via dedicated time tokens, dual-stream designs, or continuous distributional decoders. Synthetic data augmentation exposes models to reversed or shuffled event sequences, improving robustness against temporal shortcut learning.
 
-![Temporal Mitigation](figure/temporal_hallucination_mitigation.jpg)
+<div align="center"><img src="figure/temporal_hallucination_mitigation.jpg" width="95%"/></div>
 
 
 ### Motion and Action Dynamics Hallucination Mitigation
 
 Mitigation methods target different aspects of motion perception, as illustrated below, spanning six paradigms: object-centric tracking for explicit per-entity trajectory representations; specialized motion architectures for high-frequency inter-frame dynamics; graph-based reasoning over object interactions; dynamic token manipulation and visual prompting for inference-time attention steering; reinforcement learning with motion-sensitive reward signals; and physics-informed modeling that embeds geometric priors to reject implausible hypotheses.
 
-![Motion Mitigation](figure/motion_hallucination_mitigation.jpg)
+<div align="center"><img src="figure/motion_hallucination_mitigation.jpg" width="95%"/></div>
 
 
 ### Long-Context Video Understanding Hallucination Mitigation
 
 Long-context hallucination arises when models fail to retain, compress, or retrieve information across extended video. As illustrated below, mitigation strategies are organized into five categories by where they intervene: memory optimization, token compression and merging, dynamic frame sampling, retrieval-augmented generation, and agentic workflows for iterative evidence gathering and verification.
 
-![Long Context Mitigation](figure/long_context_hallucination_mitigation.jpg)
+<div align="center"><img src="figure/long_context_hallucination_mitigation.jpg" width="95%"/></div>
 
 
 ### Object Hallucination Mitigation
 
 Object hallucination is addressed through four paradigms, as illustrated below: object-centric tracking and fine-grained grounding for explicit entity localization; reinforcement learning and preference optimization that penalize unsupported object predictions; neuro-symbolic and graph-based reasoning that enforces verifiable inference over entities and relations; and inference-time intervention and attention modulation for training-free evidence steering.
 
-![Object Mitigation](figure/object_hallucination_mitigation.jpg)
+<div align="center"><img src="figure/object_hallucination_mitigation.jpg" width="95%"/></div>
 
 
 ### Causal and Reasoning Hallucination Mitigation
 
 The figure below covers mitigation for causal and reasoning hallucination alongside cross-modal hallucination. For causal and reasoning failures, four paradigms are employed: reinforcement learning that supervises the faithfulness of intermediate reasoning steps; neuro-symbolic and graph-based reasoning for auditable causal inference; chain-of-thought reasoning that anchors each inferential step to visual evidence; and multi-agent frameworks where specialized agents debate and verify conclusions.
 
-![Reasoning Mitigation](figure/reasoning_and_cross_modal_hallucination_mitigation.jpg)
+<div align="center"><img src="figure/reasoning_and_cross_modal_hallucination_mitigation.jpg" width="95%"/></div>
 
 
 ### Cross-Modal Hallucination Mitigation
